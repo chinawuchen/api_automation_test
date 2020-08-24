@@ -1,0 +1,16 @@
+
+第5条用例实际结果与预期结果不一致:
+Expected:"请重新登录"
+  Actual:{'code': 200, 'data': {'uid': 390, 'avatar': 'https://pic.cdouyin.com/Fh5LH0m2bY87bdJT-h3NES-DReu3?imageslim', 'nick': '小西瓜', 'targetUid': 388, 'targetAvatar': 'https://pic.cdouyin.com/Fmtvjs0NPeSLlJwWtov0aAShRoNO?imageslim', 'targetNick': '小乌龟', 'giftId': 317, 'giftNum': 1, 'giftPic': 'https://pic.cdouyin.com/Fux0uonDLnSMfSIOk0gij_sOK3TZ', 'giftName': '玫瑰花', 'goldPrice': 1, 'experLevel': 35, 'userGiftPurseNum': 0, 'useGiftPurseGold': 1, 'giftSendTime': 1596360167058, 'isNewUser': False, 'mxUrl': '', 'giftVggUrl': ''}, 'message': '200:success'}
+
+第6条用例实际结果与预期结果不一致:
+Expected: "该礼物已下架，敬请期待更多礼物哦~"
+  Actual:{'code': 400, 'message': '服务器无法理解您的请求'}
+
+第7条用例实际结果与预期结果不一致:
+Expected: "参数异常"
+  Actual:{'code': 200, 'data': {'uid': 390, 'avatar': 'https://pic.cdouyin.com/Fh5LH0m2bY87bdJT-h3NES-DReu3?imageslim', 'nick': '小西瓜', 'targetUid': 388, 'targetAvatar': 'https://pic.cdouyin.com/Fmtvjs0NPeSLlJwWtov0aAShRoNO?imageslim', 'targetNick': '小乌龟', 'giftId': 317, 'giftNum': 1, 'giftPic': 'https://pic.cdouyin.com/Fux0uonDLnSMfSIOk0gij_sOK3TZ', 'giftName': '玫瑰花', 'goldPrice': 1, 'experLevel': 35, 'userGiftPurseNum': 0, 'useGiftPurseGold': 1, 'giftSendTime': 1596360167328, 'isNewUser': False, 'mxUrl': '', 'giftVggUrl': ''}, 'message': '200:success'}
+
+第22条用例实际结果与预期结果不一致:
+Expected:"result": "True"
+  Actual:{'data': {'accessToken': 'a_302eeb66f66578279c7ad51dd666737d', 'info': {'id': 26650, 'login_time': '1596360021', 'balance': '2.76', 'user_email': '1102055693@qq.com'}}, 'code': 0, 'result': True}
